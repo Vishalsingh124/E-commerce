@@ -1,0 +1,127 @@
+@import url('https://fonts.cdnfonts.com/css/orchidea-pro');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Orchidea Pro', sans-serif;
+}
+
+body{
+    background-color: #000;                                       
+}
+
+.nav-bar{
+    /* all in straight line  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* .nav-bar:hover{
+    background-color: darkgrey;
+} */
+
+.logo img{
+    width: 75px;
+    margin: 3px 10px 5px 0px;
+}
+
+.search-box{
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+.search-box input{
+    display: flex;
+    padding: 5px 10px;
+    border: none;
+    flex: 1;
+    padding: 15px;
+    border-color: black;
+    border-radius: 5px 0px 0px 5px;
+    margin: 2px 0px;
+}
+
+.search-box button{
+    padding: 10px 20px;
+    border-radius: 0px 7px 7px 0px;
+    background-color:#00649f ;
+    color: #000 ;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.search-box button:hover{
+    background-color: grey;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+}
+
+.nav-icon a{
+    margin-left: 15px;
+}
+
+.nav-icon img{
+    width: 30px;
+    filter: invert(100%);
+}
+
+.hero-section img{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.hero-section {
+    padding-top: 100px;
+}
+
+
+.foot{
+    background-color: lightgray;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.footer-links{
+    margin: 20px;
+}
+
+.footer-links h4{
+    margin-top: 0px;
+}
+.footer-links ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-links li{
+    margin-bottom: 10px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #075498;
+}
+.rights h4{
+    text-align: center;
+    font-size: 14px;
+    color: #efffff;
+}
